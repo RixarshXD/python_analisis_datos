@@ -62,7 +62,7 @@ ceros = (df["TOTALPAGADO"] == 0).sum()
 
 # mostrar los resultados
 print("\n ========= VALORES NEGATIVOS Y CEROS ========= \n")
-print(f"\nValores negativos: {negativos}")
+print(f"Valores negativos: {negativos}")
 print(f"Ceros: {ceros}")
 
 # valores nulos
